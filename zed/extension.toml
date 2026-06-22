@@ -6,6 +6,10 @@ schema_version = 1
 authors = ["Takeru Ohta <phjgt308@gmail.com>"]
 repository = "https://github.com/sile/efmt"
 
+[grammars.erlang]
+repository = "https://github.com/AbstractMachinesLab/tree-sitter-erlang"
+commit = "3a9c769444f08bbccce03845270efac0c641c5e7"
+
 [language_servers.efmt-lsp]
 name = "efmt LSP"
 languages = ["Erlang"]

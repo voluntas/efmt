@@ -1,0 +1,13 @@
+name = "Erlang"
+grammar = "erlang"
+path_suffixes = ["erl", "hrl", "app.src", "escript"]
+first_line_regex = '^#!.*\berl\b'
+line_comments = ["% "]
+autoclose_before = ";:.,=}])>"
+brackets = [
+  { start = "{", end = "}", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "<<", end = ">>", close = true, newline = false },
+]
+word_characters = ["_", "@"]
