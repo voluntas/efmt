@@ -25,4 +25,4 @@ unicode-width = "0.2.2"
 similar-asserts = "1"
 
 [workspace]
-members = ["efmt_core", "efmt_derive", "efmt_wasm"]
+members = ["efmt_core", "efmt_derive", "efmt_wasm", "efmt-lsp"]

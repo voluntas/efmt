@@ -1,0 +1,12 @@
+[package]
+name = "efmt-lsp"
+version = "0.1.0"
+authors = ["Takeru Ohta <phjgt308@gmail.com>"]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "LSP server for efmt Erlang formatter"
+
+[dependencies]
+efmt_core = { path = "../efmt_core", version = "0.7.0" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
